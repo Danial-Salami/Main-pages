@@ -1,0 +1,612 @@
+@media screen and (max-width: 560px) {
+    /* For mobile phones: */
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: rgb(210, 228, 107);
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 100px 100px 100px;
+    }
+    .container-all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .logo {
+        width: 100%;
+        height: 10%;
+        display: none;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo i {
+        width: 200px;
+        height: 40px;
+        background-image: url(./blogfa.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .top {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: darkolivegreen;
+    }
+    .top .banner {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(67, 55, 241);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        direction: rtl;
+    }
+    .top .banner .notice {
+        color: white;
+    }
+    .top .banner .sign {
+        width: 50%;
+        height: 20%;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .top .form {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 10px;
+        background-color: rgb(104, 102, 102);
+    }
+    .top .form .forget {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .top .form input {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        outline: none;
+    }
+    .top .form input::placeholder {
+        text-align: center;
+    }
+    .top .form button {
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(23, 137, 212);
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .top .form div {
+        margin-top: 15px;
+        color: deepskyblue;
+    }
+    .top .form div span {
+        cursor: pointer;
+    }
+    .headline {
+        width: 100%;
+        height: 10%;
+    }
+    h5 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        color: deepskyblue;
+    }
+    h5:before,
+    h5:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid rgb(218, 213, 213);
+        margin: auto;
+    }
+    .box-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .box-container .box {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(240, 240, 240);
+        margin: 2px;
+        display: flex;
+        justify-content: start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 5px;
+        overflow: hidden;
+    }
+    .box-container .box .top-in {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+    }
+    .box-container .box .top-in .title {
+        color: deepskyblue;
+    }
+    .box-container .box .top-in .site {
+        color: gray;
+        cursor: pointer;
+    }
+    .box-container .box .description {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+        direction: rtl;
+    }
+    .container-all .links {
+        width: 100%;
+        height: 10%;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .container-all .links div {
+        margin: 10px;
+        cursor: pointer;
+        color: deepskyblue;
+    }
+    .container-all .links div i {
+        color: gray;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 1024px) {
+    /* For tablet phones: */
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: rgb(235, 202, 96);
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 100px 100px 100px;
+    }
+    .container-all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .logo {
+        width: 100%;
+        height: 10%;
+        display: none;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo i {
+        width: 200px;
+        height: 40px;
+        background-image: url(./blogfa.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .top {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: darkolivegreen;
+    }
+    .top .banner {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(67, 55, 241);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        direction: rtl;
+    }
+    .top .banner .notice {
+        color: white;
+    }
+    .top .banner .sign {
+        width: 50%;
+        height: 20%;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .top .form {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 10px;
+        background-color: rgb(104, 102, 102);
+    }
+    .top .form .forget {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .top .form input {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        outline: none;
+    }
+    .top .form input::placeholder {
+        text-align: center;
+    }
+    .top .form button {
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(23, 137, 212);
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .top .form div {
+        margin-top: 15px;
+        color: deepskyblue;
+    }
+    .top .form div span {
+        cursor: pointer;
+    }
+    .headline {
+        width: 100%;
+        height: 10%;
+    }
+    h5 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        color: deepskyblue;
+    }
+    h5:before,
+    h5:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid rgb(218, 213, 213);
+        margin: auto;
+    }
+    .box-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .box-container .box {
+        width: 47%;
+        height: 150px;
+        background-color: rgb(240, 240, 240);
+        margin: 2px;
+        display: flex;
+        justify-content: start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 5px;
+        overflow: hidden;
+    }
+    .box-container .box .top-in {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+    }
+    .box-container .box .top-in .title {
+        color: deepskyblue;
+    }
+    .box-container .box .top-in .site {
+        color: gray;
+        cursor: pointer;
+    }
+    .box-container .box .description {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+        direction: rtl;
+    }
+    .container-all .links {
+        width: 100%;
+        height: 10%;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .container-all .links div {
+        margin: 10px;
+        cursor: pointer;
+        color: deepskyblue;
+    }
+    .container-all .links div i {
+        color: gray;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px 100px 100px 100px;
+    }
+    .container-all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .logo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo i {
+        width: 200px;
+        height: 40px;
+        background-image: url(./blogfa.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .top {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: darkolivegreen;
+    }
+    .top .banner {
+        width: 75%;
+        height: 100%;
+        background-color: rgb(67, 55, 241);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        direction: rtl;
+    }
+    .top .banner .notice {
+        color: white;
+    }
+    .top .banner .sign {
+        width: 150px;
+        height: 30px;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .top .form {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 10px;
+        background-color: rgb(104, 102, 102);
+    }
+    .top .form .forget {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .top .form input {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        outline: none;
+    }
+    .top .form input::placeholder {
+        text-align: center;
+    }
+    .top .form button {
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(23, 137, 212);
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+    .top .form div {
+        margin-top: 15px;
+        color: deepskyblue;
+    }
+    .top .form div span {
+        cursor: pointer;
+    }
+    .headline {
+        width: 100%;
+        height: 10%;
+    }
+    h5 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        color: deepskyblue;
+    }
+    h5:before,
+    h5:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid rgb(218, 213, 213);
+        margin: auto;
+    }
+    .box-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .box-container .box {
+        width: 23.6%;
+        height: 150px;
+        background-color: rgb(240, 240, 240);
+        margin: 2px;
+        display: flex;
+        justify-content: start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 5px;
+        overflow: hidden;
+    }
+    .box-container .box .top-in {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+    }
+    .box-container .box .top-in .title {
+        color: deepskyblue;
+    }
+    .box-container .box .top-in .site {
+        color: gray;
+        cursor: pointer;
+    }
+    .box-container .box .description {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: start;
+        direction: rtl;
+    }
+    .container-all .links {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .container-all .links div {
+        margin: 10px;
+        cursor: pointer;
+        color: deepskyblue;
+    }
+    .container-all .links div i {
+        color: gray;
+    }
+}
